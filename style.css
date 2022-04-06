@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.36) 0%, 
+    rgba(255, 217, 0, 0.5) 100%);
+    backdrop-filter: blur(40px);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.cabecalho-logo{
+    height: 70px;
+}
+.cabecalho-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 18px;
+}
+.conteudo{
+    border-top: 1px solid cadetblue;
+    margin-bottom: 30px;
+    padding: 10px;
+}
